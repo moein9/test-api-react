@@ -1,0 +1,12 @@
+.card{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: rgb(214, 245, 235);
+}
+
+.flag {
+    width: 90px;
+    height: 50px;
+
+}

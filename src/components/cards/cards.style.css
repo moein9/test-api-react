@@ -1,0 +1,7 @@
+section {
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+    padding: 90px;
+
+}
