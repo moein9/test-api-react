@@ -35,13 +35,20 @@ export const Cards = () => {
 
   return (
     <>
-      <input
-        type="search"
-        id="search-button"
-        onChange={(e)=>setsearch(e.target.value)}
-        value={search}
-      ></input>
-      <section>{show}</section>
+      <div
+        style={{ paddingLeft: "100px",alignItems:"center",justifyContent:"center", display: "flex", gap: "10px" }}
+      >
+        <input
+        placeholder="        searching..."
+          style={{ height: "50px", width:"400px", justifyItems: "center",borderRadius:"33px" }}
+          type="search"
+          id="search-button"
+          onChange={(e) => setsearch(e.target.value)}
+          value={search}
+        ></input>
+      </div>
+
+      <section style={{display:"flex",justifyContent:"center"}}>{show}</section>
     </>
   );
 
